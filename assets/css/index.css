@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=IBM+Plex+Mono:wght@200;300;400;500;600;700&family=IBM+Plex+Serif:wght@300;400;500;600;700&family=Lato:wght@300&family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&family=Tomorrow:wght@200;300;400;500;600;700;800;900&family=Ubuntu:wght@300;400;500;700&family=Work+Sans:wght@200;300;400;500;600;700;800;900&display=swap');
+body{
+    margin: 0;
+    background: #eef5ff;
+}
+.step{
+    width: 50px;
+    height: 50px;
+    color: #eeecff;
+    border-radius: 99%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #eeecff;
+    font-family: ubuntu;
+    font-weight: 500;
+    transition: 0.3s;
+}
+.step.active{
+    background: #bfe1fe;
+    color: #2d506f;
+    border: none;
+}
+.header h1{
+    font-weight: 700;
+    font-family: ubuntu;
+}
+.header p{
+    font-weight: 400;
+    font-family: ubuntu;
+}
+form label{
+    color: #617391;
+    font-weight: 400;
+    font-family: ubuntu;
+  
+}
+form input{
+    width: 100%;
+    height: 50px;
+    border: 1px solid #e4e3e8;
+    border-radius: 5px;
+    outline: none;
+    padding-left: 20px;
+    font-weight: 500;
+    font-family: ubuntu;
+    margin-bottom: 5px;
+}
+form input[type=text]::placeholder{
+    padding-left: 0px;
+    font-weight: 500;
+    font-family: ubuntu;
+}
+.next button{
+    font-family: ubuntu;
+    color: #d0ebf6;
+}

@@ -17,6 +17,40 @@
   </style>
 </head>
 <body>
+  <!--==================== Side Mobile nav  ================-->
+  <div class="sidebar-image relative">
+    <img src="/assets/images/bg-sidebar-mobile.svg" alt="" class="w-[100%] md:hidden absolute">
+    <div class="steps relative z-20 flex justify-between w-[70%] mx-auto pt-10">
+      <div class="step">1</div>
+      <div class="step">2</div>
+      <div class="step">3</div>
+      <div class="step">4</div>
+    </div>
+  </div>
+  <main class="form-boxes">
+    <div class="form-box w-[90%] mx-auto bg-[#ffffff] h-[400px] relative z-99 mt-5 rounded-[30px] flex justify-center items-center">
+      <div class="h-[90%] w-[80%] mx-auto header">
+        <h1 class="text-[#072b53] text-[30px]">Personal Info</h1>
+        <p class="text-[#babac2]">Please provide your name, email address, and phone number.</p>
+        <form action="" class="mt-5">
+          <label for="name">Name</label><br>
+          <input id="name" type="text" placeholder="e.g Stephen King">
+          <label for="email">Email Address</label><br>
+          <input id="email" type="email" placeholder="e.g stephenking@lorem.com">
+          <label for="Phonenum">Phone Number</label><br>
+          <input id="Phonenum" type="text" placeholder="e.g +1 234 567 890">
+        </form>
+      </div>
+      
+    </div>
+    <div class="w-[100%] h-[90px] bg-[#ffffff]  absolute bottom-0 next">
+      <div class="w-[90%] h-[100%] flex justify-end mr-3 items-center">
+        <button class="h-[50%] bg-[#032959] px-3 rounded-[5px] text-[#fff]">Next Step</button>
+      </div>
+    </div>
+  </main>
+  
 
+  <script src="/assets/js/index.js"></script>
 </body>
 </html>
