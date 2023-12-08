@@ -54,4 +54,14 @@ form input[type=text]::placeholder{
 .next button{
     font-family: ubuntu;
     color: #d0ebf6;
+    margin-left: auto;
+}
+.next h1{
+    color: #bdbcc0;
+    font-family: ubuntu;
+    font-weight: 500;
+    display: none;
+}
+.next h1.active{
+    display: block;
 }
